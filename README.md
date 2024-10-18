@@ -32,3 +32,19 @@ Install the requirements
    ```
    streamlit run app.py
    ```
+<h2 align="center">Usage</h2>
+
+- Change save_dir in app.py file so that images will be saved directly to your directory
+- Run the app.py file using the instructions above.
+- Input a text prompt in the sidebar.
+- Click on the "Generate Image" button to start generating.
+- Wait for the progress bar to complete, and your generated image will appear on the screen.
+- Click the "Download Image" button to save the image locally.
+
+<h2 align="center">Model Selection</h2>
+I selected FLUX.1-schnell, an open-source model accessible via Gradio, due to its robust text-to-image capabilities and ease of integration into web-based applications. It is designed to efficiently convert text prompts into high-quality images, making it ideal for prototyping projects like this.
+
+I opted for a pre-trained model rather than building one from scratch because:
+- Simplicity: FLUX.1-schnell offers an accessible API with ready-to-use image generation without needing extensive training.
+- Versatility: It handles a wide variety of input prompts and can generate detailed, aesthetically pleasing images.
+- Time efficiency: Given the assignment's deadline, using a pre-trained model minimizes setup time while ensuring high-quality results.
