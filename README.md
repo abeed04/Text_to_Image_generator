@@ -48,3 +48,24 @@ I opted for a pre-trained model rather than building one from scratch because:
 - Simplicity: FLUX.1-schnell offers an accessible API with ready-to-use image generation without needing extensive training.
 - Versatility: It handles a wide variety of input prompts and can generate detailed, aesthetically pleasing images.
 - Time efficiency: Given the assignment's deadline, using a pre-trained model minimizes setup time while ensuring high-quality results.
+<h3 align="left">Integration</h3>
+
+The integration process involved using Gradio's API to make predictions based on user input. The model's functionality was embedded within a Streamlit web interface for simplicity and ease of deployment.
+
+<h3 align="left">Challenges</h3>
+
+One of the challenges was ensuring that the app could handle multiple requests without latency. I addressed this by using lower inference steps (set to 4) to speed up image generation without compromising too much on quality.
+
+<h2 align="center">Use Cases</h2>
+<h3 align="left">Content Creation for Social Media Influencers</h3>
+Use Case: Social media influencers, bloggers, or content creators can use the tool to generate visually engaging images based on a theme or topic. For example, they can create customized images for promotional posts, event announcements, or inspirational quotes.
+
+<h3 align="left">Marketing and Advertising Campaigns</h3>
+Use Case: Marketing teams can quickly generate high-quality visuals that align with their campaign themes. This can speed up the process of creating banners, posters, and advertisements without relying on graphic designers.
+<h3 align="left">Art and Design Inspiration</h3>
+Use Case: Artists and designers looking for inspiration or quick concept art can use the generator to visualize ideas. It can help kickstart the creative process by providing rough imagery based on descriptive input.
+<h3 align="left">Educational Use</h3>
+Use Case: Educators can use the tool to create engaging visual content for lessons, making abstract ideas more relatable and visually appealing for students.
+
+<h3 align="left">Storybook Illustrations</h3>
+Use Case: Authors or publishers of children's books could use the text-to-image generator to create illustrations based on the story content, cutting down on the time required to find or commission artwork.
