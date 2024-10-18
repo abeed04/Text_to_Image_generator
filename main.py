@@ -62,6 +62,6 @@ if generate_image:
                     mime="image/png"
                 )
 
-            st.success(f"Image generated and saved at: {save_path}")
+            st.success("Image generated ")
     else:
         st.error("Please enter a prompt to generate the image.")
